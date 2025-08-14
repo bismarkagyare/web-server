@@ -1,0 +1,9 @@
+{
+  "dotnet.defaultSolution": "web-server.sln",
+  "[csharp]": {
+    "editor.defaultFormatter": "csharpier.csharpier-vscode"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "csharpier.csharpier-vscode"
+  }
+}
