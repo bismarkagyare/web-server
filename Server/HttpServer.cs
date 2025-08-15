@@ -71,8 +71,8 @@ public class HttpServer
                     if (requestBuilder.ToString().Contains("\r\n\r\n"))
                         break;
 
-                    if (!stream.DataAvailable)
-                        break;
+                    // if (!stream.DataAvailable)
+                    //     break;
                 }
 
                 //atp, i have the raw http request text
@@ -80,15 +80,19 @@ public class HttpServer
                 var firstLine = rawrequest.Split('\n')[0].TrimEnd('\r');
                 Console.WriteLine($"[HttpServer] {firstLine}");
 
+                var parts = firstLine.Split(' ');
+                string method = parts[0];
+                string path = parts.Length > 1 ? parts[1] : "/";
+
                 //craft the reply
-                string body = "Hello from SimpleWebServer";
+                var (body, contentType) = Router.Resolve(path);
                 byte[] bodyBytes = Encoding.UTF8.GetBytes(body);
 
                 //build the http reponse headers
                 var responseBuilder = new StringBuilder();
-                requestBuilder.Append("HTTP/1.1 200 OK\r\n");
+                responseBuilder.Append("HTTP/1.1 200 OK\r\n");
 
-                responseBuilder.Append("Content-Type: text/plain; charset=utf-8\r\n");
+                responseBuilder.Append($"Content-Type: {contentType}\r\n");
                 responseBuilder.Append($"Content-Length: {bodyBytes.Length}\r\n");
                 responseBuilder.Append("Connection: close\r\n");
                 responseBuilder.Append("\r\n");

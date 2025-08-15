@@ -1,0 +1,15 @@
+C:\Users\bisma\Downloads\web-server\bin\Debug\net9.0\SimpleWebServer.exe
+C:\Users\bisma\Downloads\web-server\bin\Debug\net9.0\SimpleWebServer.deps.json
+C:\Users\bisma\Downloads\web-server\bin\Debug\net9.0\SimpleWebServer.runtimeconfig.json
+C:\Users\bisma\Downloads\web-server\bin\Debug\net9.0\SimpleWebServer.dll
+C:\Users\bisma\Downloads\web-server\bin\Debug\net9.0\SimpleWebServer.pdb
+C:\Users\bisma\Downloads\web-server\obj\Debug\net9.0\SimpleWebServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bisma\Downloads\web-server\obj\Debug\net9.0\SimpleWebServer.AssemblyInfoInputs.cache
+C:\Users\bisma\Downloads\web-server\obj\Debug\net9.0\SimpleWebServer.AssemblyInfo.cs
+C:\Users\bisma\Downloads\web-server\obj\Debug\net9.0\SimpleWebServer.csproj.CoreCompileInputs.cache
+C:\Users\bisma\Downloads\web-server\obj\Debug\net9.0\SimpleWebServer.sourcelink.json
+C:\Users\bisma\Downloads\web-server\obj\Debug\net9.0\SimpleWebServer.dll
+C:\Users\bisma\Downloads\web-server\obj\Debug\net9.0\refint\SimpleWebServer.dll
+C:\Users\bisma\Downloads\web-server\obj\Debug\net9.0\SimpleWebServer.pdb
+C:\Users\bisma\Downloads\web-server\obj\Debug\net9.0\SimpleWebServer.genruntimeconfig.cache
+C:\Users\bisma\Downloads\web-server\obj\Debug\net9.0\ref\SimpleWebServer.dll
